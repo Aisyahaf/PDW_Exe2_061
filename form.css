@@ -1,0 +1,80 @@
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: #86d5dc;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color:#5f553c;
+    font-weight: bold;
+}
+
+form{
+    width: 500px; /* Sesuaikan dengan lebar form yang diinginkan */
+    margin: 30px auto; /* Mengatur margin secara otomatis */
+    padding: 20px;
+    border: 3px solid #157b98;
+    border-radius: 5px;
+}
+
+form input[type="radio"]{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+p{
+    font-family: 'Averia Serif Libre', cursive;
+    color:#252b30;
+    font-weight: bold;
+}
+
+label[for="name"],
+label[for="date"],
+label[for="b&b"],
+label[for="sw"],
+label[for="frozen"],
+label[for="maleficent"],
+label[for="aladdin"],
+label[for="moana"],
+label[for="nemo"],
+label[for="hero"],
+label[for="alice"],
+label[for="mermaid"],
+label[for="1"],
+label[for="2"],
+label[for="3"],
+label[for="4"],
+label[for="5"],
+label[for="response"]{
+    display: inline-block;
+    font-family: 'Averia Serif Libre', cursive;
+    color:#252b30;
+    font-weight: bold;
+}
+
+input[type="radio"]:checked+label{
+    font-weight: bold;
+    color: #157b98;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Averia Serif Libre', cursive;
+    border: 1px solid #157b98;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="date"],
+select{
+    font-family: 'Averia Serif Libre', cursive;
+    border: 1px solid #157b98;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
