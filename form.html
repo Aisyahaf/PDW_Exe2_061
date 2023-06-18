@@ -30,7 +30,7 @@
                 <br>
                 
                 <p>
-                    Your Age Range :
+                    Age Range :
                     <select id="myselect">
                         <option>10 - 14 years</option>
                         <option>15 - 20 years</option>
@@ -39,7 +39,7 @@
                     </select>
                 </p>
 
-                <p>Your Favorite Disney Movie : </p>
+                <p>Favorite Disney Movie : </p>
 
                 <input type="radio" name="favorite" id="b&b" value="b&b">
                 <label for="b&b">Beauty and The Beast</label><br>
@@ -63,7 +63,7 @@
                 <label for="mermaid">The little Mermaid</label><br>
                 <br>
 
-                <p>Your Favorite Disney Movie Rating: </p>
+                <p>Rating Favorite Disney Movie : </p>
 
                 <input type="radio" name="rating" id="1" value="1">
                 <label for="1">1</label>
@@ -79,7 +79,12 @@
                 <br>
                 <label for="response">Response</label><br>
                 <textarea placeholder="Response about your favorite Disney Movie" name="response" id="response" cols="30" rows="5"></textarea>
+
+                <button type="submit" onclick="submitData()">submit</button><br><br>
+                <button class="back" style="background-color: aliceblue;"><a href="index.html">back</a></button>
             </form>
         </div>
+
+        <script src="form.js"></script>
     </body>
 </html>

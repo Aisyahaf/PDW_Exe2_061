@@ -78,3 +78,18 @@ select{
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+button{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: 'Averia Serif Libre', cursive;
+    background-color: #157b98;
+    color: #c9d2c5;
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+}
