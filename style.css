@@ -1,0 +1,36 @@
+body{
+    background-color: #86d5dc;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 800px; /* Sesuaikan dengan lebar form yang diinginkan */
+    margin: 50px auto; /* Mengatur margin secara otomatis */
+    padding: 20px;
+    border: 3px solid #157b98;
+    border-radius: 5px;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    color:#5f553c;
+}
+
+h2{
+    font-family: 'Averia Serif Libre', cursive;
+    color:#5f553c;
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: 'Averia Serif Libre', cursive;
+    background-color: #157b98;
+    color: #c9d2c5;
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+}
